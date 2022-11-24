@@ -29,4 +29,7 @@ func main() {
 	myRating, _ := reader.ReadString('\n')
 	mynumRating, _ := strconv.ParseFloat(strings.TrimSpace(myRating), 64)
 	fmt.Println(mynumRating + 2)
+	fmt.Println(mynumRating + 2) // here i want to changed
+
+
 }
