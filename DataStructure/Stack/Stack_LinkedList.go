@@ -69,8 +69,7 @@ func main() {
 	S.display()
 	fmt.Println("length:", S.len())
 
-	S.top()
-	// fmt.Println(e)
+	fmt.Println(S.top())
 	S.display()
 	fmt.Println("length:", S.len())
 
